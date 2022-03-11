@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="esi.tp5.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/letter1"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/img_guess"
+            android:layout_marginTop="75dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="80dp"/>
+        <EditText
+            android:id="@+id/letter2"
+            android:layout_width="25dp"
+            android:layout_height="55dp"
+
+            android:layout_below="@id/img_guess"
+            android:layout_toRightOf="@id/letter1"
+            android:textSize="30dp"
+            android:hint="\?"
+            android:layout_marginTop="73dp"
+            />
+        <EditText
+            android:id="@+id/letter3"
+            android:layout_width="25dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/img_guess"
+            android:hint="\?"
+            android:textSize="30dp"
+            android:layout_toRightOf="@id/letter2"
+            android:layout_marginTop="73dp"
+            android:layout_marginLeft="3dp"/>/>
+        <TextView
+            android:id="@+id/letter4"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/img_guess"
+            android:layout_toRightOf="@id/letter3"
+            android:layout_marginTop="75dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="3dp"/>/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_guess"
+            android:layout_toRightOf="@id/letter4"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="7dp"
+            android:text=">>"
+            />
+
+        <ImageView
+            android:id="@+id/correct"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:visibility="invisible"
+            android:src="@drawable/correct"
+            />
+        <ImageView
+            android:id="@+id/incorrect"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:visibility="invisible"
+            android:src="@drawable/incorrect"
+            />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
