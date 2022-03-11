@@ -3,4 +3,4 @@ Fill the Gap is the Tetris-style puzzle game in which you are given three differ
 
 ## Demo video
 
-A DEMO VIDEO IS ATTACHED TO THIS REPOSITORY
+A DEMO VIDEO IS ATTACHED TO THIS REPOSITORY (TP5.mp4)
